@@ -6,7 +6,7 @@ import java.util.*
 
 object CV {
 
-    var BASE_URL = "http://adminapi.smttown.com/"
+    var BASE_URL = "http://54.169.139.107:8090/"
     var SP_ISLOGIN = "SP_ISLOGIN"
     val APP_FOLDER_NAME = ".smttown"
     val IMAGE_SAVE_FORMAT = "MM_dd_yyyy_hh_mm_a"
