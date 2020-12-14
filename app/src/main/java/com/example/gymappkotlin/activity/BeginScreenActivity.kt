@@ -20,7 +20,6 @@ class BeginScreenActivity :  BaseActivity<ActivityBeginScreenBinding>() {
         )
 
         setListner()
-
     }
 
     private fun setListner() {
