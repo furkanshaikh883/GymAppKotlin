@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GymAppKotlin</string>
+    <string name="common_ok">Ok</string>
+    <string name="common_yes">Yes</string>
+    <string name="common_no">No</string>
+    <string name="msg_error_attachemnt">Error</string>
+    <string name="permission_for_useapp">Allow permissions</string>
+    <string name="i_am_client">I"'"M Client</string>
+    <string name="i_am_trainer">I"'"M Trainer</string>
+</resources>
