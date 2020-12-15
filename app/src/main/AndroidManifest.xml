@@ -15,7 +15,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GymAppKotlin">
-        <activity android:name=".activity.PersonalDetailActivity"></activity>
+        <activity android:name=".activity.TermAndCondition"></activity>
+        <activity android:name=".activity.PersonalDetailActivity" />
         <activity android:name=".activity.BeginScreenActivity" />
         <activity android:name=".activity.LoginActivity" />
         <activity android:name=".activity.DashboardActivity" />
