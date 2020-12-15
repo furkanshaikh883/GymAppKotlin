@@ -11,8 +11,7 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".activity.PersonalDetailActivity">
-
+        tools:context=".activity.BioDetailsActivity">
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -59,6 +58,32 @@
                             android:layout_width="@dimen/_10sdp"
                             android:layout_height="@dimen/_10sdp"
                             android:background="@mipmap/tram_black_circle"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.7"
+                        android:gravity="center">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_1sdp"
+                            android:background="@mipmap/tram_black_line"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.2"
+                        android:gravity="center">
+
+                        <View
+                            android:layout_width="@dimen/_10sdp"
+                            android:layout_height="@dimen/_10sdp"
+                            android:background="@mipmap/tram_black_circle"/>
                     </LinearLayout>
 
                     <LinearLayout
@@ -84,65 +109,118 @@
                             android:layout_height="@dimen/_10sdp"
                             android:background="@mipmap/tram_grey_circle"/>
                     </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="0.7"
-                        android:gravity="center">
-
-                        <View
-                            android:layout_width="match_parent"
-                            android:layout_height="@dimen/_1sdp"
-                            android:background="@mipmap/tram_grey_line"/>
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1.2"
-                        android:gravity="center">
-
-                        <View
-                            android:layout_width="@dimen/_10sdp"
-                            android:layout_height="@dimen/_10sdp"
-                            android:background="@mipmap/tram_grey_circle"/>
-                    </LinearLayout>
                 </LinearLayout>
 
                 <TextView
                     android:id="@+id/termAndCondition"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/_12ssp"
-                    android:layout_marginTop="@dimen/_12ssp"
-                    android:text="Personal Detail"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="Bio Details"
                     android:textColor="@color/textColor"
-                    android:textSize="@dimen/_22ssp"/>
+                    android:textSize="@dimen/_20ssp"/>
 
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_20ssp"
+                    android:text="Biography of trainer"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/_12ssp"/>
+
+                <EditText
+                    android:id="@+id/bioGraphy"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_90sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:gravity="top"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:hint="Write here"
+                    android:maxLines="20"
+                    android:textSize="@dimen/_11ssp">
+
+                </EditText>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:text="Type of training or nutrition expertise"
+                    android:textColor="@color/textColor"
+                    android:textSize="14dp"
+                    />
 
                 <LinearLayout
-                    android:id="@+id/addPhoto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <EditText
+                            android:id="@+id/experties"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:layout_marginRight="@dimen/_10sdp"
+                            android:imeOptions="actionNext"
+                            android:focusable="false"
+                            android:inputType="text"
+                            android:hint="Your Expertise"
+                            android:maxLines="20"
+                            android:textSize="@dimen/_11ssp"/>
+
+                        <ImageView
+                            android:layout_width="@dimen/_12ssp"
+                            android:layout_height="@dimen/_10sdp"
+                            android:layout_marginRight="@dimen/_25sdp"
+                            android:layout_gravity="center|right"
+                            android:background="@mipmap/textfield_dropdown"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_20ssp"
+                    android:text="Training certificate"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/_12ssp"/>
+
+                <LinearLayout
+                    android:id="@+id/trainingCertificate"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_150sdp"
-                    android:layout_marginLeft="@dimen/_12sdp"
-                    android:layout_marginTop="@dimen/_12sdp"
-                    android:layout_marginRight="@dimen/_15sdp"
+                    android:layout_marginLeft="@dimen/_12ssp"
+                    android:layout_marginTop="@dimen/_12ssp"
+                    android:layout_marginRight="@dimen/_10sdp"
                     android:background="@drawable/persone_detail_gray_bg"
                     android:gravity="center"
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView"
+                        android:id="@+id/imageView1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@mipmap/default_pic"/>
+                        android:background="@mipmap/add_plus"/>
 
                     <TextView
-                        android:id="@+id/textView"
+                        android:id="@+id/textView1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_14sdp"
                         android:gravity="center"
                         android:text="Tap here to add your Photo"
                         android:textColor="@color/text_gray"
@@ -152,133 +230,60 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/_12sdp"
-                    android:layout_marginTop="@dimen/_20sdp"
-                    android:text="Full Name"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_20ssp"
+                    android:text="Education certificate"
                     android:textColor="@color/textColor"
                     android:textSize="@dimen/_12ssp"/>
-
-                <EditText
-                    android:id="@+id/fullName"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/_11sdp"
-                    android:layout_marginTop="1sp"
-                    android:layout_marginRight="@dimen/_10sdp"
-                    android:hint="Full Name"
-                    android:imeOptions="actionNext"
-                    android:inputType="text"
-                    android:textSize="@dimen/_11ssp"
-                    android:maxLines="20">
-
-                </EditText>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/_11sdp"
-                    android:layout_marginTop="@dimen/_20sdp"
-                    android:text="Email"
-                    android:textColor="@color/textColor"
-                    android:textSize="@dimen/_12ssp"/>
-
-                <EditText
-                    android:id="@+id/email"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/_11sdp"
-                    android:layout_marginTop="@dimen/_1sdp"
-                    android:layout_marginRight="@dimen/_11sdp"
-                    android:hint="Email"
-                    android:imeOptions="actionNext"
-                    android:inputType="textEmailAddress"
-                    android:maxLines="20"
-                    android:textSize="@dimen/_11ssp"/>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/_11sdp"
-                    android:layout_marginTop="@dimen/_20sdp"
-                    android:text="Mobile"
-                    android:textColor="@color/textColor"
-                    android:textSize="@dimen/_11ssp"/>
-
-                <EditText
-                    android:id="@+id/mobile"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/_11sdp"
-                    android:layout_marginTop="@dimen/_1sdp"
-                    android:layout_marginRight="@dimen/_10sdp"
-                    android:hint="Mobile"
-                    android:imeOptions="actionNext"
-                    android:inputType="number"
-                    android:maxLines="20"
-                    android:textSize="@dimen/_11ssp"/>
-
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Gender"
-                    android:layout_marginLeft="@dimen/_11sdp"
-                    android:layout_marginTop="@dimen/_20sdp"
-                    android:textColor="@color/textColor"
-                    android:textSize="@dimen/_12ssp"/>
-
 
                 <LinearLayout
-                    android:id="@+id/selectGender"
+                    android:id="@+id/eduCertificate"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@android:color/transparent"
-                    android:orientation="horizontal">
-                    <FrameLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-                        <EditText
-                            android:id="@+id/gender"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:focusable="false"
-                            android:layout_marginLeft="@dimen/_10sdp"
-                            android:layout_marginTop="@dimen/_1sdp"
-                            android:layout_marginRight="@dimen/_10sdp"
-                            android:hint="Select Gender"
-                            android:imeOptions="actionNext"
-                            android:inputType="text"
-                            android:maxLines="20"
-                            android:textSize="@dimen/_11ssp"/>
+                    android:layout_height="@dimen/_120sdp"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_marginRight="@dimen/_15sdp"
+                    android:background="@drawable/persone_detail_gray_bg"
+                    android:gravity="center"
+                    android:orientation="vertical">
 
-                        <ImageView
-                            android:layout_width="@dimen/_12sdp"
-                            android:layout_height="@dimen/_10sdp"
-                            android:layout_marginRight="30dp"
-                            android:layout_gravity="center|right"
-                            android:background="@mipmap/textfield_dropdown"/>
-                    </FrameLayout>
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/add_plus"/>
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:gravity="center"
+                        android:text="Tap here to add your Photo"
+                        android:textColor="@color/text_gray"
+                        android:textSize="@dimen/_12ssp"/>
+
                 </LinearLayout>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/_11sdp"
-                    android:layout_marginTop="@dimen/_20sdp"
-                    android:text="Age"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_20ssp"
+                    android:text="Which gym you work with"
                     android:textColor="@color/textColor"
                     android:textSize="@dimen/_12ssp"/>
 
                 <EditText
-                    android:id="@+id/age"
+                    android:id="@+id/gymName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/_10sdp"
                     android:layout_marginTop="@dimen/_1sdp"
-                    android:layout_marginRight="@dimen/_10sdp"
-                    android:hint="Age"
+                    android:layout_marginRight="15dp"
                     android:imeOptions="actionNext"
-                    android:inputType="number"
+                    android:inputType="text"
+                    android:hint="Gym Name"
                     android:maxLines="20"
                     android:textSize="@dimen/_11ssp"/>
 
@@ -287,36 +292,35 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/_10sdp"
                     android:layout_marginTop="@dimen/_20sdp"
-                    android:text="City"
+                    android:text="Location"
                     android:textColor="@color/textColor"
                     android:textSize="@dimen/_12ssp"/>
 
 
+
                 <LinearLayout
-                    android:id="@+id/selectCity"
+                    android:id="@+id/selectLocation"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
                     <FrameLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
-
                         <EditText
-                            android:id="@+id/city"
+                            android:id="@+id/location"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="@dimen/_10sdp"
                             android:layout_marginTop="@dimen/_1sdp"
                             android:layout_marginRight="@dimen/_10sdp"
                             android:focusable="false"
-                            android:hint="City"
                             android:imeOptions="actionDone"
                             android:inputType="text"
+                            android:hint="Location"
                             android:maxLines="20"
                             android:textSize="@dimen/_11ssp"/>
-
                         <ImageView
-                            android:layout_width="@dimen/_12sdp"
+                            android:layout_width="@dimen/_12ssp"
                             android:layout_height="@dimen/_10sdp"
                             android:layout_marginRight="@dimen/_25sdp"
                             android:layout_gravity="center|right"
@@ -333,13 +337,13 @@
                     android:layout_marginTop="@dimen/_30sdp"
                     android:layout_marginBottom="@dimen/_40sdp"
                     android:background="@drawable/accept_btn_bg"
-                    android:paddingLeft="@dimen/_18sdp"
-                    android:paddingRight="@dimen/_18sdp"
+                    android:paddingLeft="@dimen/_15sdp"
+                    android:paddingRight="@dimen/_15sdp"
                     android:paddingTop="@dimen/_10sdp"
                     android:paddingBottom="@dimen/_10sdp"
                     android:text="Next"
                     android:textColor="@color/colorWhite"
-                    android:textSize="@dimen/_12ssp"/>
+                    android:textSize="13dp"/>
 
             </LinearLayout>
         </ScrollView>
