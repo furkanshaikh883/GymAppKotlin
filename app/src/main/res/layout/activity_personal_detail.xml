@@ -30,21 +30,21 @@
 
                     <ImageView
                         android:id="@+id/back"
-                        android:layout_width="25dp"
-                        android:layout_height="25dp"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
                         android:layout_gravity="center_vertical"
                         android:layout_marginLeft="16dp"
                         android:layout_weight="0.1"
-                        android:padding="5dp"
+                        android:padding="@dimen/_3sdp"
                         android:src="@mipmap/back_arrow" />
 
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="20dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
                     android:gravity="center"
                     android:orientation="horizontal"
                     android:weightSum="5">
@@ -56,9 +56,9 @@
                         android:gravity="center">
 
                         <View
-                            android:layout_width="13dp"
-                            android:layout_height="13dp"
-                            android:background="@mipmap/tram_black_circle"></View>
+                            android:layout_width="@dimen/_10sdp"
+                            android:layout_height="@dimen/_10sdp"
+                            android:background="@mipmap/tram_black_circle"/>
                     </LinearLayout>
 
                     <LinearLayout
@@ -69,8 +69,8 @@
 
                         <View
                             android:layout_width="match_parent"
-                            android:layout_height="1dp"
-                            android:background="@mipmap/tram_black_line"></View>
+                            android:layout_height="@dimen/_1sdp"
+                            android:background="@mipmap/tram_black_line"/>
                     </LinearLayout>
 
                     <LinearLayout
@@ -80,9 +80,9 @@
                         android:gravity="center">
 
                         <View
-                            android:layout_width="13dp"
-                            android:layout_height="13dp"
-                            android:background="@mipmap/tram_grey_circle"></View>
+                            android:layout_width="@dimen/_10sdp"
+                            android:layout_height="@dimen/_10sdp"
+                            android:background="@mipmap/tram_grey_circle"/>
                     </LinearLayout>
 
                     <LinearLayout
@@ -93,8 +93,8 @@
 
                         <View
                             android:layout_width="match_parent"
-                            android:layout_height="1dp"
-                            android:background="@mipmap/tram_grey_line"></View>
+                            android:layout_height="@dimen/_1sdp"
+                            android:background="@mipmap/tram_grey_line"/>
                     </LinearLayout>
 
                     <LinearLayout
@@ -104,9 +104,9 @@
                         android:gravity="center">
 
                         <View
-                            android:layout_width="13dp"
-                            android:layout_height="13dp"
-                            android:background="@mipmap/tram_grey_circle"></View>
+                            android:layout_width="@dimen/_10sdp"
+                            android:layout_height="@dimen/_10sdp"
+                            android:background="@mipmap/tram_grey_circle"/>
                     </LinearLayout>
                 </LinearLayout>
 
@@ -114,20 +114,20 @@
                     android:id="@+id/termAndCondition"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="@dimen/_12ssp"
+                    android:layout_marginTop="@dimen/_12ssp"
                     android:text="Personal Detail"
                     android:textColor="@color/textColor"
-                    android:textSize="25dp"/>
+                    android:textSize="@dimen/_22ssp"/>
 
 
                 <LinearLayout
                     android:id="@+id/addPhoto"
                     android:layout_width="match_parent"
-                    android:layout_height="202dp"
-                    android:layout_marginLeft="18dp"
-                    android:layout_marginTop="11dp"
-                    android:layout_marginRight="18dp"
+                    android:layout_height="@dimen/_150sdp"
+                    android:layout_marginLeft="@dimen/_12sdp"
+                    android:layout_marginTop="@dimen/_12sdp"
+                    android:layout_marginRight="@dimen/_15sdp"
                     android:background="@drawable/persone_detail_gray_bg"
                     android:gravity="center"
                     android:orientation="vertical">
@@ -136,38 +136,39 @@
                         android:id="@+id/imageView"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@mipmap/default_pic"></ImageView>
+                        android:background="@mipmap/default_pic"/>
 
                     <TextView
                         android:id="@+id/textView"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="19dp"
+                        android:layout_marginTop="@dimen/_15sdp"
                         android:gravity="center"
                         android:text="Tap here to add your Photo"
                         android:textColor="@color/text_gray"
-                        android:textSize="14dp"/>
+                        android:textSize="@dimen/_12ssp"/>
                 </LinearLayout>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginTop="27dp"
+                    android:layout_marginLeft="@dimen/_12sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
                     android:text="Full Name"
                     android:textColor="@color/textColor"
-                    android:textSize="14dp"/>
+                    android:textSize="@dimen/_12ssp"/>
 
                 <EditText
                     android:id="@+id/fullName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginTop="2dp"
-                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="@dimen/_11sdp"
+                    android:layout_marginTop="1sp"
+                    android:layout_marginRight="@dimen/_10sdp"
                     android:hint="Full Name"
                     android:imeOptions="actionNext"
                     android:inputType="text"
+                    android:textSize="@dimen/_11ssp"
                     android:maxLines="20">
 
                 </EditText>
@@ -175,54 +176,56 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginTop="27dp"
+                    android:layout_marginLeft="@dimen/_11sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
                     android:text="Email"
                     android:textColor="@color/textColor"
-                    android:textSize="14dp"/>
+                    android:textSize="@dimen/_12ssp"/>
 
                 <EditText
                     android:id="@+id/email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginTop="2dp"
-                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="@dimen/_11sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:layout_marginRight="@dimen/_11sdp"
                     android:hint="Email"
                     android:imeOptions="actionNext"
                     android:inputType="textEmailAddress"
-                    android:maxLines="20"></EditText>
+                    android:maxLines="20"
+                    android:textSize="@dimen/_11ssp"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginTop="27dp"
+                    android:layout_marginLeft="@dimen/_11sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
                     android:text="Mobile"
                     android:textColor="@color/textColor"
-                    android:textSize="14dp"/>
+                    android:textSize="@dimen/_11ssp"/>
 
                 <EditText
                     android:id="@+id/mobile"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginTop="2dp"
-                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="@dimen/_11sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
                     android:hint="Mobile"
                     android:imeOptions="actionNext"
                     android:inputType="number"
-                    android:maxLines="20"></EditText>
+                    android:maxLines="20"
+                    android:textSize="@dimen/_11ssp"/>
 
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Gender"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginTop="27dp"
+                    android:layout_marginLeft="@dimen/_11sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
                     android:textColor="@color/textColor"
-                    android:textSize="14dp"/>
+                    android:textSize="@dimen/_12ssp"/>
 
 
                 <LinearLayout
@@ -239,17 +242,18 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:focusable="false"
-                            android:layout_marginLeft="15dp"
-                            android:layout_marginTop="2dp"
-                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:layout_marginRight="@dimen/_10sdp"
                             android:hint="Select Gender"
                             android:imeOptions="actionNext"
                             android:inputType="text"
-                            android:maxLines="20"/>
+                            android:maxLines="20"
+                            android:textSize="@dimen/_11ssp"/>
 
                         <ImageView
-                            android:layout_width="15dp"
-                            android:layout_height="10dp"
+                            android:layout_width="@dimen/_12sdp"
+                            android:layout_height="@dimen/_10sdp"
                             android:layout_marginRight="30dp"
                             android:layout_gravity="center|right"
                             android:background="@mipmap/textfield_dropdown"/>
@@ -259,32 +263,33 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginTop="27dp"
+                    android:layout_marginLeft="@dimen/_11sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
                     android:text="Age"
                     android:textColor="@color/textColor"
-                    android:textSize="14dp"/>
+                    android:textSize="@dimen/_12ssp"/>
 
                 <EditText
                     android:id="@+id/age"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginTop="2dp"
-                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
                     android:hint="Age"
                     android:imeOptions="actionNext"
                     android:inputType="number"
-                    android:maxLines="20"></EditText>
+                    android:maxLines="20"
+                    android:textSize="@dimen/_11ssp"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginTop="27dp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
                     android:text="City"
                     android:textColor="@color/textColor"
-                    android:textSize="14dp"/>
+                    android:textSize="@dimen/_12ssp"/>
 
 
                 <LinearLayout
@@ -300,38 +305,41 @@
                             android:id="@+id/city"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="15dp"
-                            android:layout_marginTop="2dp"
-                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_1sdp"
+                            android:layout_marginRight="@dimen/_10sdp"
                             android:focusable="false"
                             android:hint="City"
                             android:imeOptions="actionDone"
                             android:inputType="text"
-                            android:maxLines="20"/>
+                            android:maxLines="20"
+                            android:textSize="@dimen/_11ssp"/>
 
                         <ImageView
-                            android:layout_width="15dp"
-                            android:layout_height="10dp"
-                            android:layout_marginRight="30dp"
+                            android:layout_width="@dimen/_12sdp"
+                            android:layout_height="@dimen/_10sdp"
+                            android:layout_marginRight="@dimen/_25sdp"
                             android:layout_gravity="center|right"
                             android:background="@mipmap/textfield_dropdown"/>
                     </FrameLayout>
                 </LinearLayout>
 
 
-                <Button
+                <TextView
                     android:id="@+id/next"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginTop="40dp"
-                    android:layout_marginBottom="50dp"
+                    android:layout_marginTop="@dimen/_30sdp"
+                    android:layout_marginBottom="@dimen/_40sdp"
                     android:background="@drawable/accept_btn_bg"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
+                    android:paddingLeft="@dimen/_18sdp"
+                    android:paddingRight="@dimen/_18sdp"
+                    android:paddingTop="@dimen/_10sdp"
+                    android:paddingBottom="@dimen/_10sdp"
                     android:text="Next"
                     android:textColor="@color/colorWhite"
-                    android:textSize="13dp"/>
+                    android:textSize="@dimen/_12ssp"/>
 
             </LinearLayout>
         </ScrollView>
