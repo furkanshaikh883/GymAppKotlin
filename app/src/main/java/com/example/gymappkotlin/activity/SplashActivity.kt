@@ -32,7 +32,7 @@ class SplashActivity : BaseActivity<ActivitySplashBinding>() {
             if (CM.getSp(this, CV.Authtoken,"") !=null && !CM.getSp(this, CV.Authtoken,"")!!.equals("")) {
                 CM.startActivity(mActivity, DashboardActivity::class.java)
             } else {
-                CM.startActivity(mActivity, BeginScreenActivity::class.java)
+                CM.startActivity(mActivity, DashboardActivity::class.java)
             }
             CM.finishActivity(mActivity)
         }
