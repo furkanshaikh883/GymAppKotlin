@@ -1,5 +1,6 @@
 package com.example.gymappkotlin.activity
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
@@ -25,6 +26,14 @@ class BioDetailsActivity  : BaseActivity<ActivityBioDetailsBinding>() {
     }
 
     private fun setListner() {
+        binding.back.setOnClickListener() {
+            finish()
+        }
+
+        binding.next.setOnClickListener(){
+            val intent = Intent(this@BioDetailsActivity, PaymentDetailActivity::class.java)
+            startActivity(intent)
+        }
     }
 
 }

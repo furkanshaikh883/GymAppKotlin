@@ -1,5 +1,6 @@
 package com.example.gymappkotlin.activity
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
@@ -31,6 +32,14 @@ class PersonalDetailActivity : BaseActivity<ActivityPersonalDetailBinding>() {
     }
 
     private fun setListner() {
+        binding.back.setOnClickListener() {
+            finish()
+        }
+
+        binding.next.setOnClickListener(){
+            val intent = Intent(this@PersonalDetailActivity, BioDetailsActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     override fun onRequestGranted(requestCode: Int, perms: List<String>) {
