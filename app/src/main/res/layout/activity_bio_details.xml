@@ -343,7 +343,7 @@
                     android:paddingBottom="@dimen/_10sdp"
                     android:text="Next"
                     android:textColor="@color/colorWhite"
-                    android:textSize="13dp"/>
+                    android:textSize="@dimen/_12ssp"/>
 
             </LinearLayout>
         </ScrollView>
