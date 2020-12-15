@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.ReportIssueActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="16dp"
+                android:layout_weight="0.1"
+                android:padding="5dp"
+                android:src="@mipmap/back_arrow" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/termAndCondition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="Report Issues"
+            android:textColor="@color/textColor"
+            android:textSize="25dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="27dp"
+            android:text="Report Issues With App"
+            android:textColor="@color/textColor"
+            android:textSize="14dp"/>
+
+        <EditText
+            android:id="@+id/reportAppIssue"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="top"
+            android:imeOptions="actionNext"
+            android:hint="Write here"
+            android:inputType="text"
+            android:maxLines="20">
+
+        </EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="27dp"
+            android:text="Report Term &amp; violators"
+            android:textColor="@color/textColor"
+            android:textSize="14dp"/>
+
+        <EditText
+            android:id="@+id/reportViolators"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:gravity="top"
+            android:hint="Write here"
+            android:inputType="text"
+            android:imeOptions="actionDone"
+            android:maxLines="20"/>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/accept_btn_bg"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Submit"
+            android:textColor="@color/colorWhite"
+            android:textSize="13dp"/>
+
+
+    </LinearLayout>
+
+</layout>
