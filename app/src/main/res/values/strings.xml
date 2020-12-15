@@ -7,4 +7,27 @@
     <string name="permission_for_useapp">Allow permissions</string>
     <string name="i_am_client">I"'"M Client</string>
     <string name="i_am_trainer">I"'"M Trainer</string>
+    <string name="term_and_condition">Term &amp; Condition</string>
+    <string name="term_condition_text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent cursus mi libero.
+        Vestibulum imperdiet dolor egestas cursus molestie. Etiam volutpat tempus ipsum elementum elementum.
+        Suspendisse quis tortor justo. Pellentesque augue neque, molestie in libero sed, pretium porta enim.
+        Curabitur pulvinar efficitur fringilla. Etiam ac nisi elementum, volutpat augue non, feugiat odio.
+        Vivamus at quam neque. Cras varius odio velit, ac bibendum neque ultrices sed. Aenean et est ut mi rhoncus iaculis.
+        Nulla massa eros, scelerisque vitae vulputate ut, cursus eget ligula. Morbi sodales vel enim non placerat.
+        Nunc cursus imperdiet enim in rutrum. Nullam maximus mollis lobortis. Donec fringilla, quam at efficitur elementum,
+        orci mauris tempor magna, et rhoncus urna nunc facilisis velit. Orci varius natoque penatibus et magnis dis parturient
+        montes, nascetur ridiculus mus. Nunc porttitor dui sit amet vehicula pellentesque. Fusce ut urna placerat, posuere sem vel,
+        accumsan nisl. Mauris sagittis nibh quis ante euismod consequat. Aenean pretium sagittis sapien, ut tincidunt turpis auctor nec.
+        Aliquam mauris ipsum, ullamcorper vitae odio a, bibendum volutpat enim. Integer imperdiet in lectus at condimentum.
+        Donec in lacus libero. Mauris eu augue sapien. Donec eu interdum dolor. Sed feugiat, mi pretium semper tincidunt,
+        nibh elit congue risus, at hendrerit lectus massa at massa. Morbi ultricies ipsum a neque rutrum, a tempor magna pellentesque.
+        Etiam mattis pharetra purus a pharetra. Praesent luctus sapien quis leo ornare condimentum. Donec ipsum quam,
+        suscipit in varius a, volutpat efficitur sem. Curabitur convallis bibendum augue, tincidunt molestie sem maximus vel.
+        Sed nibh orci, aliquet non auctor nec, varius in quam. Donec eget risus eu lectus blandit rutrum.
+        Cras vitae ullamcorper augue. Aliquam sodales massa ac justo vehicula, in lobortis dolor cursus. Etiam justo tellus,
+        lobortis vel est id, tempor accumsan nulla. Nulla rhoncus tortor vitae nisl imperdiet sodales. In a odio eget felis
+        consequat tempor. Fusce interdum neque ut ornare lobortis. In eleifend lacus quam, et efficitur leo egestas in.
+        Fusce eros justo, ultrices sit amet nulla eu, ornare dictum neque. Nunc vitae dictum diam. Donec id lectus tellus. </string>
+
+
 </resources>
