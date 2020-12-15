@@ -18,7 +18,7 @@ class LoginActivity : BaseActivity<ActivityLoginBinding>() {
         super.onCreate(savedInstanceState)
 
         binding = DataBindingUtil.setContentView(
-            this, R.layout.activity_dashboard
+            this, R.layout.activity_login
         )
 
         setListner()

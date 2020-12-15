@@ -28,6 +28,12 @@
         lobortis vel est id, tempor accumsan nulla. Nulla rhoncus tortor vitae nisl imperdiet sodales. In a odio eget felis
         consequat tempor. Fusce interdum neque ut ornare lobortis. In eleifend lacus quam, et efficitur leo egestas in.
         Fusce eros justo, ultrices sit amet nulla eu, ornare dictum neque. Nunc vitae dictum diam. Donec id lectus tellus. </string>
+    <string name="welcome">Welcome!</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="send">Send</string>
 
 
 </resources>
