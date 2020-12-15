@@ -36,7 +36,7 @@
                         android:layout_marginLeft="16dp"
                         android:layout_weight="0.1"
                         android:padding="5dp"
-                        android:src="@mipmap/back_arrow" />
+                        android:src="@drawable/back_arrow" />
 
                 </LinearLayout>
 

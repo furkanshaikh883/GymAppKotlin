@@ -18,7 +18,7 @@
         <ImageView
             android:layout_width="@dimen/_100sdp"
             android:layout_height="@dimen/_60sdp"
-            android:background="@mipmap/notification_logo_wbg"
+            android:background="@drawable/notification_logo_wbg"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/_45sdp"/>
 
@@ -60,7 +60,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@mipmap/search_ic"
+                android:background="@drawable/search_ic"
                 android:layout_alignParentRight="true"/>
 
             <VideoView
@@ -99,7 +99,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@mipmap/search_ic"
+                android:background="@drawable/search_ic"
                 android:layout_alignParentRight="true"/>
 
             <VideoView

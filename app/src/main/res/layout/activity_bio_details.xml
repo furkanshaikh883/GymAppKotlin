@@ -35,7 +35,7 @@
                         android:layout_marginLeft="@dimen/_10sdp"
                         android:layout_weight="0.1"
                         android:padding="@dimen/_3sdp"
-                        android:src="@mipmap/back_arrow" />
+                        android:src="@drawable/back_arrow" />
 
                 </LinearLayout>
 
@@ -57,7 +57,7 @@
                         <View
                             android:layout_width="@dimen/_10sdp"
                             android:layout_height="@dimen/_10sdp"
-                            android:background="@mipmap/tram_black_circle"/>
+                            android:background="@drawable/tram_black_circle"/>
 
                     </LinearLayout>
 
@@ -70,7 +70,7 @@
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="@dimen/_1sdp"
-                            android:background="@mipmap/tram_black_line"/>
+                            android:background="@drawable/tram_black_line"/>
 
                     </LinearLayout>
 
@@ -83,7 +83,7 @@
                         <View
                             android:layout_width="@dimen/_10sdp"
                             android:layout_height="@dimen/_10sdp"
-                            android:background="@mipmap/tram_black_circle"/>
+                            android:background="@drawable/tram_black_circle"/>
                     </LinearLayout>
 
                     <LinearLayout
@@ -95,7 +95,7 @@
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="@dimen/_1sdp"
-                            android:background="@mipmap/tram_black_line"/>
+                            android:background="@drawable/tram_black_line"/>
                     </LinearLayout>
 
                     <LinearLayout
@@ -107,7 +107,7 @@
                         <View
                             android:layout_width="@dimen/_10sdp"
                             android:layout_height="@dimen/_10sdp"
-                            android:background="@mipmap/tram_grey_circle"/>
+                            android:background="@drawable/tram_grey_circle"/>
                     </LinearLayout>
                 </LinearLayout>
 
@@ -183,7 +183,7 @@
                             android:layout_height="@dimen/_10sdp"
                             android:layout_marginRight="@dimen/_25sdp"
                             android:layout_gravity="center|right"
-                            android:background="@mipmap/textfield_dropdown"/>
+                            android:background="@drawable/textfield_dropdown"/>
 
                     </FrameLayout>
 
@@ -214,7 +214,7 @@
                         android:id="@+id/imageView1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@mipmap/add_plus"/>
+                        android:background="@drawable/add_plus"/>
 
                     <TextView
                         android:id="@+id/textView1"
@@ -251,7 +251,7 @@
                         android:id="@+id/imageView2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@mipmap/add_plus"/>
+                        android:background="@drawable/add_plus"/>
 
                     <TextView
                         android:id="@+id/textView2"
@@ -324,7 +324,7 @@
                             android:layout_height="@dimen/_10sdp"
                             android:layout_marginRight="@dimen/_25sdp"
                             android:layout_gravity="center|right"
-                            android:background="@mipmap/textfield_dropdown"/>
+                            android:background="@drawable/textfield_dropdown"/>
                     </FrameLayout>
                 </LinearLayout>
 

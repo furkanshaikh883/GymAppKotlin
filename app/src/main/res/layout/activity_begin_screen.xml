@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="bottom"
-            android:background="@mipmap/i_am_trainer"
+            android:background="@drawable/i_am_trainer"
             android:layout_weight="1"
             android:orientation="vertical">
 
@@ -46,7 +46,7 @@
                 <View
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:background="@mipmap/trainer_arrow_black">
+                    android:background="@drawable/trainer_arrow_black">
                 </View>
             </LinearLayout>
 
@@ -57,7 +57,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="bottom"
-            android:background="@mipmap/i_am_client"
+            android:background="@drawable/i_am_client"
             android:layout_weight="1">
             <LinearLayout
                 android:id="@+id/clientBSA"
@@ -83,7 +83,7 @@
                 <View
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:background="@mipmap/trainer_arrow_black">
+                    android:background="@drawable/trainer_arrow_black">
                 </View>
             </LinearLayout>
         </LinearLayout>

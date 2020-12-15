@@ -27,7 +27,7 @@
                 android:layout_marginLeft="@dimen/_12sdp"
                 android:layout_weight="0.1"
                 android:padding="@dimen/_2sdp"
-                android:src="@mipmap/back_arrow" />
+                android:src="@drawable/back_arrow" />
 
         </LinearLayout>
 
