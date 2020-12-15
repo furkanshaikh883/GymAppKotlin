@@ -21,12 +21,12 @@
 
             <ImageView
                 android:id="@+id/back"
-                android:layout_width="25dp"
-                android:layout_height="25dp"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
                 android:layout_gravity="center_vertical"
-                android:layout_marginLeft="16dp"
+                android:layout_marginLeft="@dimen/_12sdp"
                 android:layout_weight="0.1"
-                android:padding="5dp"
+                android:padding="@dimen/_2sdp"
                 android:src="@mipmap/back_arrow" />
 
         </LinearLayout>
@@ -35,27 +35,27 @@
             android:id="@+id/termAndCondition"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
+            android:layout_marginLeft="@dimen/_10sdp"
             android:text="Report Issues"
             android:textColor="@color/textColor"
-            android:textSize="25dp"/>
+            android:textSize="@dimen/_22ssp"/>
 
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="27dp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_20sdp"
             android:text="Report Issues With App"
             android:textColor="@color/textColor"
-            android:textSize="14dp"/>
+            android:textSize="@dimen/_12ssp"/>
 
         <EditText
             android:id="@+id/reportAppIssue"
             android:layout_width="match_parent"
-            android:layout_height="130dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
+            android:layout_height="@dimen/_110sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
             android:gravity="top"
             android:imeOptions="actionNext"
             android:hint="Write here"
@@ -67,36 +67,38 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="27dp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_20sdp"
             android:text="Report Term &amp; violators"
             android:textColor="@color/textColor"
-            android:textSize="14dp"/>
+            android:textSize="@dimen/_12ssp"/>
 
         <EditText
             android:id="@+id/reportViolators"
             android:layout_width="match_parent"
-            android:layout_height="130dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"
+            android:layout_height="@dimen/_110sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
             android:gravity="top"
             android:hint="Write here"
             android:inputType="text"
             android:imeOptions="actionDone"
             android:maxLines="20"/>
 
-        <Button
+        <TextView
             android:id="@+id/submit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="@dimen/_30sdp"
             android:background="@drawable/accept_btn_bg"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
+            android:paddingLeft="@dimen/_15sdp"
+            android:paddingRight="@dimen/_15sdp"
+            android:paddingTop="@dimen/_8sdp"
+            android:paddingBottom="@dimen/_8sdp"
             android:text="Submit"
             android:textColor="@color/colorWhite"
-            android:textSize="13dp"/>
+            android:textSize="@dimen/_11ssp"/>
 
 
     </LinearLayout>
