@@ -29,7 +29,7 @@ class BeginScreenActivity :  BaseActivity<ActivityBeginScreenBinding>() {
         }
 
         binding. clientBSA.setOnClickListener(){
-            val intent = Intent(this@BeginScreenActivity, PersonalDetailActivity::class.java)
+            val intent = Intent(this@BeginScreenActivity, LoginActivity::class.java)
             startActivity(intent)
         }
     }

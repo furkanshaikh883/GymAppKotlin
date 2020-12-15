@@ -7,7 +7,7 @@
 
     </data>
 
-    <LinearLayout
+    <RelativeLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -15,126 +15,162 @@
         android:paddingLeft="@dimen/_15sdp"
         android:paddingRight="@dimen/_15sdp">
 
-        <ImageView
-            android:layout_width="@dimen/_100sdp"
-            android:layout_height="@dimen/_60sdp"
-            android:background="@drawable/notification_logo_wbg"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="@dimen/_45sdp"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="@dimen/_20sdp"
-            android:text="@string/welcome"
-            android:textColor="@color/textColor"
-            android:textSize="@dimen/_22ssp"
-            android:textStyle="bold"/>
-
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_20sdp"
-            android:text="@string/email"
-            android:textColor="@color/textColor"
-            android:textSize="@dimen/_12ssp"/>
+            android:orientation="vertical">
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <EditText
-                android:id="@+id/edtEmail"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingTop="@dimen/_5sdp"
-                android:paddingBottom="@dimen/_5sdp"
-                android:hint="@string/email"
-                android:imeOptions="actionNext"
-                android:inputType="text"
-                android:textSize="@dimen/_11ssp"
-                android:maxLines="20"
-                android:background="@null"/>
+            <ImageView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:background="@drawable/notification_logo_wbg"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/_45sdp"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/search_ic"
-                android:layout_alignParentRight="true"/>
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:text="@string/welcome"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_22ssp"
+                android:textStyle="bold"/>
 
-            <VideoView
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/_1sdp"
-                android:background="@color/text_gray"
-                android:layout_below="@+id/edtEmail"/>
-
-        </RelativeLayout>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_20sdp"
-            android:text="@string/email"
-            android:textColor="@color/textColor"
-            android:textSize="@dimen/_12ssp"/>
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <EditText
-                android:id="@+id/edtPassword"
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingTop="@dimen/_5sdp"
-                android:paddingBottom="@dimen/_5sdp"
-                android:hint="@string/password"
-                android:imeOptions="actionNext"
-                android:inputType="textPassword"
-                android:textSize="@dimen/_11ssp"
-                android:maxLines="20"
-                android:background="@null"/>
+                android:layout_marginTop="@dimen/_20sdp"
+                android:text="@string/email"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_12ssp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/edtEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:hint="@string/email"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:textSize="@dimen/_11ssp"
+                    android:maxLines="20"
+                    android:background="@null"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/search_ic"
+                    android:layout_alignParentRight="true"/>
+
+                <VideoView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/text_gray"
+                    android:layout_below="@+id/edtEmail"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:text="@string/email"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_12ssp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/edtPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:hint="@string/password"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPassword"
+                    android:textSize="@dimen/_11ssp"
+                    android:maxLines="20"
+                    android:background="@null"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/search_ic"
+                    android:layout_alignParentRight="true"/>
+
+                <VideoView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/text_gray"
+                    android:layout_below="@+id/edtPassword"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tvForgotPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:text="@string/forgot_password"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:layout_marginBottom="@dimen/_40sdp"
+                android:background="@drawable/accept_btn_bg"
+                android:paddingLeft="@dimen/_18sdp"
+                android:paddingRight="@dimen/_18sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_10sdp"
+                android:text="@string/login"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_12ssp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:gravity="center">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/search_ic"
-                android:layout_alignParentRight="true"/>
+                android:textSize="@dimen/_11ssp"
+                android:textColor="@color/black"
+                android:text="@string/don_t_have_an_account"/>
 
-            <VideoView
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/_1sdp"
-                android:background="@color/text_gray"
-                android:layout_below="@+id/edtPassword"/>
+            <TextView
+                android:id="@+id/tvRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/black"
+                android:text="@string/register_here"
+                android:layout_marginLeft="@dimen/_10sdp"/>
 
-        </RelativeLayout>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="@dimen/_20sdp"
-            android:text="@string/forgot_password"
-            android:textColor="@color/textColor"
-            android:textSize="@dimen/_12ssp"
-            android:textStyle="bold"/>
+        </LinearLayout>
 
-        <TextView
-            android:id="@+id/next"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="@dimen/_30sdp"
-            android:layout_marginBottom="@dimen/_40sdp"
-            android:background="@drawable/accept_btn_bg"
-            android:paddingLeft="@dimen/_18sdp"
-            android:paddingRight="@dimen/_18sdp"
-            android:paddingTop="@dimen/_10sdp"
-            android:paddingBottom="@dimen/_10sdp"
-            android:text="@string/login"
-            android:textColor="@color/colorWhite"
-            android:textSize="@dimen/_12ssp"/>
-
-    </LinearLayout>
+    </RelativeLayout>
 </layout>

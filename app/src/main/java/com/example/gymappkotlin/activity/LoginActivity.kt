@@ -1,5 +1,6 @@
 package com.example.gymappkotlin.activity
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
@@ -31,7 +32,15 @@ class LoginActivity : BaseActivity<ActivityLoginBinding>() {
     }
 
     private fun setListner() {
+        binding.tvForgotPassword.setOnClickListener(){
+            val intent = Intent(this@LoginActivity, ForgotPasswordActivity::class.java)
+            startActivity(intent)
+        }
 
+        binding.tvRegister.setOnClickListener() {
+            val intent = Intent(this@LoginActivity, PersonalDetailActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     override fun onRequestGranted(requestCode: Int, perms: List<String>) {
