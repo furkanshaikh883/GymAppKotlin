@@ -60,7 +60,8 @@
             android:imeOptions="actionNext"
             android:hint="Write here"
             android:inputType="text"
-            android:maxLines="20">
+            android:maxLines="20"
+            android:textSize="@dimen/_11ssp">
 
         </EditText>
 
@@ -83,7 +84,8 @@
             android:hint="Write here"
             android:inputType="text"
             android:imeOptions="actionDone"
-            android:maxLines="20"/>
+            android:maxLines="20"
+            android:textSize="@dimen/_11ssp"/>
 
         <TextView
             android:id="@+id/submit"

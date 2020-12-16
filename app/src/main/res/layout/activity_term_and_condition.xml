@@ -30,12 +30,12 @@
 
                     <ImageView
                         android:id="@+id/backTCA"
-                        android:layout_width="25dp"
-                        android:layout_height="25dp"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
                         android:layout_gravity="center_vertical"
-                        android:layout_marginLeft="16dp"
+                        android:layout_marginLeft="@dimen/_10sdp"
                         android:layout_weight="0.1"
-                        android:padding="5dp"
+                        android:padding="@dimen/_3sdp"
                         android:src="@drawable/back_arrow" />
 
                 </LinearLayout>
@@ -44,26 +44,26 @@
                     android:id="@+id/termAndCondition"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="16dp"
+                    android:layout_marginLeft="@dimen/_10sdp"
                     android:text="@string/term_and_condition"
                     android:textColor="@color/textColor"
-                    android:textSize="25dp" />
+                    android:textSize="@dimen/_20ssp" />
 
                 <TextView
                     android:id="@+id/text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
                     android:text="@string/term_condition_text"
                     android:textColor="@color/textColor"
-                    android:textSize="14dp" />
+                    android:textSize="@dimen/_12ssp" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
                     android:orientation="horizontal">
 
                     <CheckBox
@@ -76,28 +76,30 @@
                         android:id="@+id/checkTextTCA"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginLeft="@dimen/_8sdp"
                         android:gravity="center_vertical"
                         android:text="I agree to T&amp;C"
                         android:textColor="@color/textColor"
-                        android:textSize="14dp" />
+                        android:textSize="@dimen/_12ssp" />
 
 
                 </LinearLayout>
 
-                <Button
+                <TextView
                     android:id="@+id/submitTCA"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginTop="14dp"
-                    android:layout_marginBottom="50dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_35sdp"
                     android:background="@drawable/accept_btn_bg"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
+                    android:paddingLeft="@dimen/_15sdp"
+                    android:paddingRight="@dimen/_15sdp"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:paddingBottom="@dimen/_5sdp"
                     android:text="Submit"
                     android:textColor="@color/colorWhite"
-                    android:textSize="13dp" />
+                    android:textSize="@dimen/_12ssp" />
 
             </LinearLayout>
 

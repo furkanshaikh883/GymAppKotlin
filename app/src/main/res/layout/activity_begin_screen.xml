@@ -24,11 +24,11 @@
             <LinearLayout
                 android:id="@+id/trainerBSA"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_marginBottom="55dp"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginBottom="@dimen/_40sdp"
                 android:gravity="right"
-                android:layout_marginLeft="55dp"
-                android:layout_marginRight="55dp"
+                android:layout_marginLeft="@dimen/_40sdp"
+                android:layout_marginRight="@dimen/_40sdp"
                 android:background="@drawable/button_white_rounded"
                 android:orientation="horizontal"
                 android:weightSum="2">
@@ -37,15 +37,15 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1.5"
-                    android:textSize="22dp"
+                    android:textSize="@dimen/_12ssp"
                     android:gravity="left|center"
                     android:textColor="@color/buttonTextColor"
                     android:text="@string/i_am_trainer">
 
                 </TextView>
                 <View
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
                     android:background="@drawable/trainer_arrow_black">
                 </View>
             </LinearLayout>
@@ -62,11 +62,11 @@
             <LinearLayout
                 android:id="@+id/clientBSA"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_marginBottom="55dp"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginBottom="@dimen/_40sdp"
                 android:gravity="right"
-                android:layout_marginLeft="55dp"
-                android:layout_marginRight="55dp"
+                android:layout_marginLeft="@dimen/_40sdp"
+                android:layout_marginRight="@dimen/_40sdp"
                 android:background="@drawable/button_white_rounded"
                 android:orientation="horizontal"
                 android:weightSum="2">
@@ -75,14 +75,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1.5"
-                    android:textSize="22dp"
+                    android:textSize="@dimen/_12ssp"
                     android:gravity="left|center"
                     android:textColor="@color/buttonTextColor"
                     android:text="@string/i_am_client">
                 </TextView>
                 <View
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
                     android:background="@drawable/trainer_arrow_black">
                 </View>
             </LinearLayout>

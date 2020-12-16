@@ -156,7 +156,7 @@
                         <ImageView
                             android:layout_width="@dimen/_10sdp"
                             android:layout_height="@dimen/_8sdp"
-                            android:layout_marginRight="30dp"
+                            android:layout_marginRight="@dimen/_25sdp"
                             android:layout_gravity="center|right"
                             android:background="@drawable/textfield_dropdown"/>
                     </FrameLayout>
@@ -194,6 +194,7 @@
                             android:hint="$"
                             android:maxLines="20"
                             android:textSize="@dimen/_11ssp"/>
+
                         <ImageView
                             android:layout_width="@dimen/_10sdp"
                             android:layout_height="@dimen/_8sdp"
@@ -227,12 +228,13 @@
                     android:id="@+id/nameOnCard"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_1sdp"
                     android:layout_marginRight="15dp"
                     android:imeOptions="actionNext"
                     android:hint="Name"
                     android:inputType="text"
+                    android:textSize="@dimen/_11ssp"
                     android:maxLines="20"/>
 
                 <TextView
@@ -457,9 +459,9 @@
                             android:inputType="text"
                             android:maxLines="20"/>
                         <ImageView
-                            android:layout_width="15dp"
-                            android:layout_height="10dp"
-                            android:layout_marginRight="30dp"
+                            android:layout_width="@dimen/_10sdp"
+                            android:layout_height="@dimen/_8sdp"
+                            android:layout_marginRight="@dimen/_20sdp"
                             android:layout_gravity="center|right"
                             android:background="@drawable/textfield_dropdown"/>
                     </FrameLayout>

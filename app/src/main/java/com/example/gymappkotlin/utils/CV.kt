@@ -1,12 +1,14 @@
 package com.example.gymappkotlin.utils
 
 import android.os.Environment
+import com.example.gymappkotlin.BuildConfig
+import com.example.gymappkotlin.utils.CV.BASE_URL
 import java.io.File
 import java.util.*
 
 object CV {
 
-    var BASE_URL = "http://54.169.139.107:8090/"
+    var BASE_URL = BuildConfig.BASE_URL
     var SP_ISLOGIN = "SP_ISLOGIN"
     val APP_FOLDER_NAME = ".smttown"
     val IMAGE_SAVE_FORMAT = "MM_dd_yyyy_hh_mm_a"

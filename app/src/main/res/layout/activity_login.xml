@@ -68,7 +68,7 @@
                     android:background="@drawable/search_ic"
                     android:layout_alignParentRight="true"/>
 
-                <VideoView
+                <View
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_1sdp"
                     android:background="@color/text_gray"
@@ -107,7 +107,7 @@
                     android:background="@drawable/search_ic"
                     android:layout_alignParentRight="true"/>
 
-                <VideoView
+                <View
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_1sdp"
                     android:background="@color/text_gray"

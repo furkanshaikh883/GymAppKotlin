@@ -162,7 +162,7 @@
                     android:id="@+id/aboutYou"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_margin="8dp"
+                    android:layout_margin="@dimen/_5sdp"
                     android:text="Sed non ipsum sed odi non ipsuon ipsum sed odi non ipsuon ipsum sed odi non ipsuon ipsum sed odi non ipsuon ipsum sed odi non ipsuon ipsum sed odi non ipsuon ipsum sed odi non ipsuon ipsum sed odi non ipsuon ipsum sed odi non ipsuon ipsum sed odi non ipsum sed odi non ipsum sed odi non ipsum sed odi non ipsum sed odi non ipsum sed odi non ipsum sed odi non ipsum sed odi non ipsum sed odio fringilla scelerisque. AenSed non ipsum sed odio fringilla scelerisque. AenSed non ipsum sed odio fringilla scelerisque. AenSed non ipsum sed odio fringilla scelerisque. AenSed non ipsum sed odio fringilla scelerisque. AenSed non ipsum sed odio fringilla scelerisque. AenSed non ipsum sed odio fringilla scelerisque. AenSed non ipsum sed odio fringilla scelerisque. AenSed non ipsum sed odio fringilla scelerisque. Aenean accumsan massa maximus mi scelerisque fringilla. Mauris eu commodo tortor"
                     android:textColor="@color/textColor"
                     android:textSize="@dimen/_13ssp">
