@@ -9,7 +9,7 @@
     <item
         android:id="@+id/navigation_client"
         android:icon="@drawable/client_bottom"
-        android:title="@string/clients" />
+        android:title="@string/trainer" />
 
     <item
         android:id="@+id/navigation_search"
