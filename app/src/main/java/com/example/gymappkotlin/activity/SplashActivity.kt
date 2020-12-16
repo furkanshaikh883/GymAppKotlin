@@ -30,9 +30,9 @@ class SplashActivity : BaseActivity<ActivitySplashBinding>() {
         mHandler = Handler()
         mRunnable = Runnable {
             if (CM.getSp(this, CV.Authtoken,"") !=null && !CM.getSp(this, CV.Authtoken,"")!!.equals("")) {
-                CM.startActivity(mActivity, DashboardActivity::class.java)
+                CM.startActivity(mActivity, LoginActivity::class.java)
             } else {
-                CM.startActivity(mActivity, DashboardActivity::class.java)
+                CM.startActivity(mActivity, LoginActivity::class.java)
             }
             CM.finishActivity(mActivity)
         }

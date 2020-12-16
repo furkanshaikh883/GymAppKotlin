@@ -42,7 +42,8 @@
     <string name="my_profile">My Profile</string>
     <string name="more">More</string>
     <string name="trainer">Trainer</string>
-
+    <string name="enter_user_name">Please enter user name</string>
+    <string name="enter_password">Please enter password</string>
 
 
 </resources>

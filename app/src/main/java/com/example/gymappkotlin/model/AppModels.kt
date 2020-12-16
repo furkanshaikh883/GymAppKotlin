@@ -4,17 +4,14 @@ import java.io.Serializable
 
 
 open class ResponseModel(
-    var status: String = "",
-    var statusCode: Int = 0,
+    var status: Int = 0,
     var message: String = ""
 )
 
 data class DataWrapper<T>(
     var data: T? = null,
     var message: String? = null,
-    var statuscode: Int = 0,
-    var result: Int = 0
-
+    var status: Int = 0,
 )
 
 data class LoginResponse(

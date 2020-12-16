@@ -9,12 +9,15 @@ import java.util.*
 object CV {
 
     var BASE_URL = BuildConfig.BASE_URL
-    var SP_ISLOGIN = "SP_ISLOGIN"
+    val UNAUTHORIZED_CODE = 401
+    val INTERNAL_SERVER_ERROR_CODE = 500
+    val NO_DATA_FOUND_CODE = 404
+    val METHOD_NOT_ALLOW = 405
+    val RESPONSE_MESSAGE = "message"
     val APP_FOLDER_NAME = ".smttown"
     val IMAGE_SAVE_FORMAT = "MM_dd_yyyy_hh_mm_a"
     val DOWNLOADFILEPATH = Environment.getExternalStorageDirectory()
         .path + File.separator + APP_FOLDER_NAME
-    val PREF_ACCESS_TOKEN: String = "PREFS_TOKEN"
     val HEADER_CONTENT_KEY = "Content-Type"
     val VERSION = "Version"
     val VERSION_NAME = "V1"
@@ -23,21 +26,17 @@ object CV {
     val USERTOKEN = "UserToken"
     val AUTHORIZATION = "Authorization"
     val HEADER_CONTENT_TYPE = "application/x-www-form-urlencoded"
-    val PREF_APPLICANT_STATUS: String = "applicantStatus"
     val LOCALE_USE_DATEFORMAT = Locale.US
     val SP_SELECTED_LANGUAGE = "SP_SELECTED_LANGUAGE"
-    val USERNAME = "userName"
-    val password = "password"
-    val DomainCode ="DomainCode"
     val Authtoken = "token"
     val User = "user"
-    val LoggedUser = "loggedUser"
-    val LIST = "list"
-    val TITLE = "title"
     val SupportTypes = "types"
     val Statustype = "statustype"
     val companyName = "companyName"
     val supportTypeId = "supportypeid"
     val statusTypeId = "status"
+    val REQUEST_USER_NAME = "username"
+    val REQUEST_PASSWORD = "password"
+
 
 }

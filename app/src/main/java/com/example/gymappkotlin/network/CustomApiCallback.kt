@@ -15,7 +15,7 @@ abstract class CustomApiCallback<T : ResponseModel> : Callback<T> {
     override fun onResponse(call: Call<T>, response: Response<T>) {
 
         val data = getResponse(response, ResponseModel::class.java as Class<T>)
-        val isError = isErrorInWebResponse(data!!.statusCode)
+        val isError = isErrorInWebResponse(data!!.status)
 
         if (isError) {            // if error found display popup with message
             if (data.message.isNotEmpty()) {
