@@ -69,4 +69,8 @@ dependencies {
     //Bottom navigation
     implementation "androidx.navigation:navigation-fragment-ktx:2.3.2"
     implementation "androidx.navigation:navigation-ui-ktx:2.3.2"
+
+    //Rounded Imageview
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
 }
