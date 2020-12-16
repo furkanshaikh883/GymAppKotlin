@@ -15,4 +15,5 @@
     <color name="textDarkGrayColor">#929292</color>
     <color name="grayLightColor">#8E8E8E</color>
     <color name="insideBorder">#FFE7E7E7</color>
+    <color name="messageViewBg">#FE7548</color>
 </resources>

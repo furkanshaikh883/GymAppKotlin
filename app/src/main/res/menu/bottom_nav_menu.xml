@@ -7,7 +7,7 @@
         android:title="@string/home" />
 
     <item
-        android:id="@+id/navigation_client"
+        android:id="@+id/navigation_trainer_list"
         android:icon="@drawable/client_bottom"
         android:title="@string/trainer" />
 
