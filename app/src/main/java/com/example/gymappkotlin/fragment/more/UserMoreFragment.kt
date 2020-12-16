@@ -7,11 +7,12 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import com.example.gymappkotlin.R
 import com.example.gymappkotlin.databinding.FragmentUserHomeBinding
+import com.example.gymappkotlin.databinding.FragmentUserMoreOptionsBinding
 import com.example.gymappkotlin.fragment.BaseFragment
 
 class UserMoreFragment : BaseFragment() {
 
-    lateinit var binding: FragmentUserHomeBinding
+    lateinit var binding: FragmentUserMoreOptionsBinding
 
 
     override fun onCreateView(
