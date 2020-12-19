@@ -21,10 +21,10 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            buildConfigField "String", "BASE_URL", "\"http://54.169.139.107:8090/\""
+            buildConfigField "String", "BASE_URL", "\"http://3.140.108.166/Api/\""
         }
         debug {
-            buildConfigField "String", "BASE_URL", "\"http://54.169.139.107:8090/\""
+            buildConfigField "String", "BASE_URL", "\"http://3.140.108.166/Api/\""
         }
     }
     compileOptions {
