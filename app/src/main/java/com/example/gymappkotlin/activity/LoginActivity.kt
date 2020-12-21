@@ -2,12 +2,14 @@ package com.example.gymappkotlin.activity
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProviders
 import com.example.gymappkotlin.R
 import com.example.gymappkotlin.databinding.ActivityLoginBinding
 import com.example.gymappkotlin.model.LoginModel
+import com.example.gymappkotlin.utils.CM
 import com.example.gymappkotlin.utils.CV
 import com.example.gymappkotlin.utils.LogM
 import com.example.gymappkotlin.utils.toast
@@ -57,12 +59,15 @@ class LoginActivity : BaseActivity<ActivityLoginBinding>() {
                 toast(getString(R.string.enter_password))
             }else {
                 val inputParam = JsonObject()
-                inputParam.addProperty(CV.REQUEST_USER_NAME, strUserName)
+                inputParam.addProperty(CV.REQUEST_EMAIL, strUserName)
                 inputParam.addProperty(CV.REQUEST_PASSWORD, strPassword)
+                Log.e("=>"," Input param " + inputParam)
+
                 viewModel?.callLogin(inputParam)?.observe(this, androidx.lifecycle.Observer {
                     val model: LoginModel? = it.data
-                    LogM.e("=> User name is  ?? " + model?.data?.fullName)
-                    toast("API response data " + it.data)
+                    Log.e("=>"," Input param " + it.data)
+//                    CM.setSp(this,CV.Authtoken,model?.data!!)
+//                    toast("API response data " + it.data)
                 })
             }
         }

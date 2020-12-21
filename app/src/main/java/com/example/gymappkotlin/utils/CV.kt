@@ -35,7 +35,7 @@ object CV {
     val companyName = "companyName"
     val supportTypeId = "supportypeid"
     val statusTypeId = "status"
-    val REQUEST_USER_NAME = "username"
+    val REQUEST_EMAIL = "email"
     val REQUEST_PASSWORD = "password"
 
 

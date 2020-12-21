@@ -4,7 +4,8 @@ import java.io.Serializable
 
 
 open class ResponseModel(
-    var status: Int = 0,
+    var status: String = "",
+//    var statusCode: Int = 0,
     var message: String = ""
 )
 

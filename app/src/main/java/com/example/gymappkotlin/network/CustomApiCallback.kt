@@ -26,6 +26,9 @@ abstract class CustomApiCallback<T : ResponseModel> : Callback<T> {
         } else {
             handleResponseData(response.body())
         }
+
+        handleResponseData(response.body())
+
     }
 
     protected abstract fun handleResponseData(data: T?)

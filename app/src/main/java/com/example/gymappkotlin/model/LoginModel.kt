@@ -9,19 +9,10 @@ data class LoginModel(
     val data: Data
 ) :ResponseModel()  {
     data class Data(
-        var age: Int,
-        var city: String,
+        var user_id: Int,
+        var name: String,
         var email: String,
-        var fullName: String,
-        var gender: String,
-        var id: Int,
-        var isMerchant: Boolean,
-        var mobile: String,
-        var noOfUserVoted: Int,
-        var password: String,
-        var profileImage: String,
-        var token: String,
-        var totalRatingsReceived: Int,
-        var userType: String
+        var type: String,
+        var token: String
     )
 }

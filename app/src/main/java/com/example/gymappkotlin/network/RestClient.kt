@@ -132,7 +132,7 @@ class RestClient {
                 .readTimeout(READ_TIME_OUT_SEC.toLong(), TimeUnit.SECONDS)
                 .addInterceptor(customHeaderInterceptor())
                 .addInterceptor(loggingInterceptor())
-                builder.sslSocketFactory(sslSocketFactory, trustAllCerts[0] as X509TrustManager)
+            builder.sslSocketFactory(sslSocketFactory, trustAllCerts[0] as X509TrustManager)
             // builder.hostnameVerifier { hostname, session -> true }
 
             return builder.build()
@@ -207,10 +207,10 @@ class RestClient {
             return Interceptor { chain ->
                 val original = chain.request()
                 val requestBuilder = original.newBuilder()
-                if(userAuth() !=null && userToken() !=null && !userToken().equals("") && !userAuth().equals("")) {
+                if(userAuth()!=null && userToken() !=null && !userToken().equals("") && !userAuth().equals("")) {
                     requestBuilder.header(CV.HEADER_CONTENT_KEY, CV.HEADER_CONTENT_TYPE)
                     requestBuilder.header(CV.VERSION, CV.VERSION_NAME)
-                    requestBuilder.header(CV.DOMAIN_NAME, CV.DOMAIN)
+                    requestBuilder.header(CV.DOMAIN_NAME,CV.DOMAIN)
                     val stringuserToken = userToken()
                     val stringauthToken = userAuth()
                     requestBuilder.header(CV.USERTOKEN, stringuserToken!!)
